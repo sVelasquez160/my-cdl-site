@@ -1,3 +1,5 @@
+"use client";
+
 export default function Home() {
   const goTo = (url) => {
     window.location.assign(url);
