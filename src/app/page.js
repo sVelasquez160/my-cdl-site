@@ -8,11 +8,6 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
 
-{/* Logo */}
-      <div className="flex justify-center py-8">
-        <img src="/logo.png" alt="160 Driving Academy" className="h-32" />
-      </div>
-
       {/* Hero Section */}
       <section className="bg-black py-16 border-t border-orange-500">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
