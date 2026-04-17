@@ -19,7 +19,7 @@ export default function Home() {
           </div>
 
           {/* Text Right */}
-          <div className="text-center md:text-left md:ml-[-60px]">
+          <div className="text-center md:text-left md:ml-[-100px]">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-500">
               Welcome to 160 Driving Academy
             </h1>
@@ -56,7 +56,7 @@ export default function Home() {
             Enter Classroom
           </button>
  <button
-            onClick={() => goTo("/How to log into Canvas.pdf")}
+            onClick={() => goTo("/canvas-login-guide.pdf")}
             className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
           >
             How to Log Into Canvas (PDF)
