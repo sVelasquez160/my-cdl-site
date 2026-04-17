@@ -34,6 +34,12 @@ export default function Home() {
       {/* Action Buttons Section */}
       <section className="py-12 bg-black text-center">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+<button
+            onClick={() => goTo("/Canvas-login-guide.pdf")}
+            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+          >
+            How to Log Into Canvas (PDF)
+          </button>
 
           <button
             onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
@@ -54,12 +60,6 @@ export default function Home() {
             className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
           >
             Enter Classroom
-          </button>
- <button
-            onClick={() => goTo("/Canvas-login-guide.pdf")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
-          >
-            How to Log Into Canvas (PDF)
           </button>
         </div>
       </section>
