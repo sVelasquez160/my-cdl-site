@@ -47,7 +47,12 @@ export default function Home() {
           >
             Enter Classroom
           </button>
-
+ <button
+            onClick={() => goTo("/How to log into Canvas.pdf")}
+            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+          >
+            How to Log Into Canvas (PDF)
+          </button>
         </div>
       </section>
 
@@ -63,51 +68,6 @@ export default function Home() {
           frameBorder="0"
           allowFullScreen
         ></iframe>
-      </section>
-
-      {/* Canvas Link */}
-      <section className="py-12 bg-orange-500 text-center">
-        <button
-          onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
-          className="text-black text-xl font-bold underline"
-        >
-          Click here to continue to Canvas
-        </button>
-      </section>
-
-      {/* CDL Manual + Canvas Guide */}
-      <section className="py-16 bg-black text-center">
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-
-          <button
-            onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
-          >
-            IL CDL Manual
-          </button>
-
-          <button
-            onClick={() => goTo("/How to log into Canvas.pdf")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
-          >
-            How to Log Into Canvas (PDF)
-          </button>
-
-        </div>
-      </section>
-
-      {/* Classroom CTA */}
-      <section className="py-16 bg-black text-center">
-        <div className="bg-gray-900 p-10 rounded-2xl shadow-lg max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-4 text-orange-500">Join the Classroom</h2>
-          <p className="mb-6">Click below to enter your live CDL training session.</p>
-          <button
-            onClick={() => goTo("pwa.zoom.us/join")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
-          >
-            Click here to enter the classroom
-          </button>
-        </div>
       </section>
 
       {/* Footer */}
