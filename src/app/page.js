@@ -8,19 +8,31 @@ export default function Home() {
   return (
     <main className="bg-black text-white">
 
-      {/* Logo */}
+{/* Logo */}
       <div className="flex justify-center py-8">
         <img src="/logo.png" alt="160 Driving Academy" className="h-32" />
       </div>
 
       {/* Hero Section */}
-      <section className="bg-black py-16 border-t border-orange-500 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-500">
-          Welcome to 160 Driving Academy
-        </h1>
-        <p className="text-lg md:text-xl mb-6">
-          Start Your CDL Career Today – Fast, Affordable, and Job-Ready Training
-        </p>
+      <section className="bg-black py-16 border-t border-orange-500">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+          
+          {/* Logo Left */}
+          <div className="flex-shrink-0">
+            <img src="/logo.png" alt="160 Driving Academy" className="h-24 md:h-32" />
+          </div>
+
+          {/* Text Right */}
+          <div className="text-center md:text-left">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-500">
+              Welcome to 160 Driving Academy
+            </h1>
+            <p className="text-lg md:text-xl mb-6">
+              Start Your CDL Career Today – Fast, Affordable, and Job-Ready Training
+            </p>
+          </div>
+
+        </div>
       </section>
 
       {/* Action Buttons Section */}
