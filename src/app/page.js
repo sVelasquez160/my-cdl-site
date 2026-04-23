@@ -52,7 +52,7 @@ export default function Home() {
             onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
             className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
           >
-            IL CDL Manual
+            IL Commercial Driver's License Manual
           </button>
 
           <button
