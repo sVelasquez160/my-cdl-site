@@ -32,32 +32,32 @@ export default function Home() {
       </section>
 
       {/* Action Buttons Section */}
-      <section className="py-12 bg-black text-center">
+     <section className="py-12 bg-white text-center">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
 <button
             onClick={() => goTo("/Canvas-login-guide.pdf")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+           className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             How to Log Into Canvas (PDF)
           </button>
 
           <button
             onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+            className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             Continue to Canvas
           </button>
 
           <button
             onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+           className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             IL Commercial Driver's License Manual
           </button>
 
           <button
             onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
-            className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+           className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             Enter Classroom
           </button>
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Video Section */}
-      <section className="py-16 bg-black text-center">
+      <section className="py-16 bg-white text-center text-black">
         <h2 className="text-3xl font-bold mb-6 text-orange-500">
           See What Life on the Road Looks Like
         </h2>
