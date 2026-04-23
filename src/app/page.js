@@ -47,13 +47,39 @@ export default function Home() {
           >
             Continue to Canvas
           </button>
+<div className="relative group">
+            <button
+              className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
+            >
+              CDL Manuals & PDFs
+            </button>
 
-          <button
-            onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
-           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
-          >
-            IL Commercial Driver's License Manual
-          </button>
+            <div className="absolute hidden group-hover:flex flex-col bg-white text-black rounded-lg shadow-lg mt-2 min-w-[260px] z-10 overflow-hidden">
+              <button
+                onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
+                className="px-4 py-3 text-left hover:bg-gray-200"
+              >
+                Illinois CDL Manual
+              </button>
+
+              <button
+                onClick={() => goTo("/canvas-login-guide.pdf")}
+                className="px-4 py-3 text-left hover:bg-gray-200"
+              >
+                Canvas Login Guide
+              </button>
+
+              {/* Add more PDF links below */}
+              {/*
+              <button
+                onClick={() => goTo("/your-pdf-file.pdf")}
+                className="px-4 py-3 text-left hover:bg-gray-200"
+              >
+                Your PDF Name
+              </button>
+              */}
+            </div>
+          </div>
 
           <button
             onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
