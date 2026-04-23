@@ -6,7 +6,7 @@ export default function Home() {
   };
 
   return (
-    <main className="bg-black text-white">
+    <main className="bg-[#272727] text-white min-h-screen">
 
      
       {/* Hero Section */}
@@ -32,32 +32,32 @@ export default function Home() {
       </section>
 
       {/* Action Buttons Section */}
-    <section className="py-12 bg-white text-center">
+    <section className="py-12 bg-[#272727] text-center">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
 <button
             onClick={() => goTo("/Canvas-login-guide.pdf")}
-           className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             How to Log Into Canvas (PDF)
           </button>
 
           <button
             onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
-            className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+            className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             Continue to Canvas
           </button>
 
           <button
             onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
-           className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             IL Commercial Driver's License Manual
           </button>
 
           <button
             onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
-           className="bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
             Enter Classroom
           </button>
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Video Section */}
-      <section className="py-16 bg-white text-center text-black">
+      <section className="py-16 bg-[#272727] text-center text-white">
         <h2 className="text-3xl font-bold mb-6 text-orange-500">
           See What Life on the Road Looks Like
         </h2>
@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#272727] text-gray-300 py-6 text-center border-t border-orange-500">
+      <footer className="bg-[#272727] text-gray-300 py-6 text-center border-t border-orange-500">rt7gyh'
         <p>&copy; 2026 160 Driving Academy. All rights reserved.</p>
       </footer>
 
