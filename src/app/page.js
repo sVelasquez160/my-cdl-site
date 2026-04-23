@@ -10,7 +10,7 @@ export default function Home() {
 
      
       {/* Hero Section */}
-      <section className="bg-black py-16 border-t border-orange-500">
+      <section className="bg-[#272727] py-16 border-t border-orange-500">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           
           {/* Logo Left */}
@@ -32,7 +32,7 @@ export default function Home() {
       </section>
 
       {/* Action Buttons Section */}
-     <section className="py-12 bg-white text-center">
+    <section className="py-12 bg-white text-center">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
 <button
             onClick={() => goTo("/Canvas-login-guide.pdf")}
@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black text-gray-400 py-6 text-center border-t border-orange-500">
+      <footer className="bg-[#272727] text-gray-300 py-6 text-center border-t border-orange-500">
         <p>&copy; 2026 160 Driving Academy. All rights reserved.</p>
       </footer>
 
