@@ -82,7 +82,6 @@ export default function Home() {
 
     </div>
   </details>
-</div>
           </div>
           <button
             onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
