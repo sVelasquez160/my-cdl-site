@@ -47,40 +47,43 @@ export default function Home() {
           >
             Continue to Canvas
           </button>
-<div className="relative group">
-            <button
-              className="bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400"
-            >
-              CDL Manuals & PDFs
-            </button>
+<div className="relative">
+  <details className="relative">
+    <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400">
+      CDL Manuals & PDFs
+    </summary>
 
-            <div className="absolute hidden group-hover:flex flex-col bg-white text-black rounded-lg shadow-lg mt-2 min-w-[260px] z-10 overflow-hidden">
-              <button
-                onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
-                className="px-4 py-3 text-left hover:bg-gray-200"
-              >
-                Illinois CDL Manual
-              </button>
+    <div className="absolute mt-2 w-72 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10">
+      
+      <button
+        onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Illinois CDL Manual
+      </button>
 
-              <button
-                onClick={() => goTo("/canvas-login-guide.pdf")}
-                className="px-4 py-3 text-left hover:bg-gray-200"
-              >
-                Canvas Login Guide
-              </button>
+      <button
+        onClick={() => goTo("/Canvas-login-guide.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Canvas Login Guide
+      </button>
 
-              {/* Add more PDF links below */}
-              {/*
-              <button
-                onClick={() => goTo("/your-pdf-file.pdf")}
-                className="px-4 py-3 text-left hover:bg-gray-200"
-              >
-                Your PDF Name
-              </button>
-              */}
-            </div>
+      {/* Add more PDFs below */}
+
+      {/*
+      <button
+        onClick={() => goTo("/your-pdf.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Your PDF
+      </button>
+      */}
+
+    </div>
+  </details>
+</div>
           </div>
-
           <button
             onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
            className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
@@ -105,7 +108,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#272727] text-gray-300 py-6 text-center border-t border-orange-500">rt7gyh'
+      <footer className="bg-[#272727] text-gray-300 py-6 text-center border-t border-orange-500">
         <p>&copy; 2026 160 Driving Academy. All rights reserved.</p>
       </footer>
 
