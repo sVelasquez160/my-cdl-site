@@ -35,6 +35,12 @@ export default function Home() {
     <section className="py-12 bg-[#272727] text-center">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
 <button
+            onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
+           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+          >
+            Enter Classroom
+          </button>
+<button
             onClick={() => goTo("/Canvas-login-guide.pdf")}
            className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
@@ -62,13 +68,82 @@ export default function Home() {
         Illinois CDL Manual
       </button>
 
-      <button
-        onClick={() => goTo("/Canvas-login-guide.pdf")}
+<button
+        onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
         className="w-full text-left px-4 py-3 hover:bg-gray-200"
       >
-        Canvas Login Guide
+        Alabama CDL Manual
       </button>
 
+       <button
+        onClick={() => goTo("https://apps.azdot.gov/files/mvd/mvd-forms-lib/40-7802.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Arizona CDL Manual
+      </button>
+
+       <button
+        onClick={() => goTo("/Arkansas-CDL-Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Arkansas CDL Manual
+      </button>
+
+       <button
+        onClick={() => goTo("https://www.dmv.ca.gov/web/eng_pdf/comlhdbk.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        California CDL Manual
+      </button>
+
+       <button
+        onClick={() => goTo("https://drive.google.com/file/d/15ORLuIKW9NRmbX731P6rQuc3y5A_Z9Ih/view")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Colorado CDL Manual
+      </button>
+
+       <button
+        onClick={() => goTo("https://portal.ct.gov/-/media/DMV/20/29/CTCDLDriverManualFINAL122015pdf.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Connecticut CDL Manual
+      </button>
+
+      <button
+        onClick={() => goTo("https://dmv.de.gov/forms/driver_serv_forms/pdfs/cdl_manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Delaware CDL Manual
+      </button>
+
+      <button
+        onClick={() => goTo("https://www.flhsmv.gov/pdf/handbooks/englishcdlhandbook.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Florida CDL Manual
+      </button>
+      
+      <button
+        onClick={() => goTo("https://www.edrivermanuals.com/wp-content/uploads/2018/07/19GACM_LR-1.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Georgia CDL Manual
+      </button>
+
+      <button
+        onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Illinois CDL Manual
+      </button>
+
+      <button
+        onClick={() => goTo("https://www.in.gov/bmv/files/cdl-manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Indiana CDL Manual
+      </button>
       {/* Add more PDFs below */}
 
       {/*
@@ -83,12 +158,6 @@ export default function Home() {
     </div>
   </details>
           </div>
-          <button
-            onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
-           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
-          >
-            Enter Classroom
-          </button>
         </div>
       </section>
 
