@@ -35,12 +35,6 @@ export default function Home() {
     <section className="py-12 bg-[#272727] text-center">
         <div className="flex flex-col md:flex-row justify-center items-center gap-6">
 <button
-            onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
-           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
-          >
-            Enter Classroom
-          </button>
-<button
             onClick={() => goTo("/Canvas-login-guide.pdf")}
            className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
@@ -61,13 +55,6 @@ export default function Home() {
 
     <div className="absolute mt-2 w-72 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10">
       
-      <button
-        onClick={() => goTo("https://www.ilsos.gov/content/dam/publications/pdf_publications/dsd_cdl10.pdf")}
-        className="w-full text-left px-4 py-3 hover:bg-gray-200"
-      >
-        Illinois CDL Manual
-      </button>
-
 <button
         onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
         className="w-full text-left px-4 py-3 hover:bg-gray-200"
