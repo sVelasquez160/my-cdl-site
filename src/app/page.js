@@ -45,7 +45,7 @@ export default function Home() {
             onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
             className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
-            Continue to Canvas
+            Click Here to get to your quizzes 
           </button>
 <div className="relative">
   <details className="relative">
