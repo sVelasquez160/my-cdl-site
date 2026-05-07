@@ -343,11 +343,11 @@ export default function Home() {
       {/* Video Section */}
       <section className="py-16 bg-[#272727] text-center text-white">
         <h2 className="text-3xl font-bold mb-6 text-orange-500">
-          See What Life on the Road Looks Like
+          How to use the Chromebook and access your quizzes
         </h2>
         <iframe
           className="w-full max-w-5xl mx-auto h-[400px] rounded-2xl shadow"
-          src="https://www.youtube.com/embed/snbFN9mCwrk"
+          src="https://vimeo.com/1190255341"
           title="Trucking Video"
           frameBorder="0"
           allowFullScreen
