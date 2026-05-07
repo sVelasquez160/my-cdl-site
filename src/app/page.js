@@ -340,10 +340,27 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Video Section */}
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1190255341?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="how to chromebook"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </section>
+{/* Video Section */}
+<section className="py-16 bg-[#272727] text-center text-white">
+  <h2 className="text-3xl font-bold mb-6 text-orange-500">
+    Chromebook Login Tutorial
+  </h2>
 
+  <div
+    className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-2xl shadow-lg"
+    style={{ paddingTop: "56.25%" }}
+  >
+    <iframe
+      src="https://player.vimeo.com/video/1190255341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+      className="absolute top-0 left-0 w-full h-full"
+      frameBorder="0"
+      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+      title="How to use the Chromebook"
+    ></iframe>
+  </div>
+</section>
       {/* Footer */}
       <footer className="bg-[#272727] text-gray-300 py-6 text-center border-t border-orange-500">
         <p>&copy; 2026 160 Driving Academy. All rights reserved.</p>
