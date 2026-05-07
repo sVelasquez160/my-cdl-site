@@ -131,6 +131,198 @@ export default function Home() {
       >
         Indiana CDL Manual
       </button>
+      <button
+        onClick={() => goTo("https://iowadot.gov/media/326/download?inline")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Iowa CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://www.ksrevenue.gov/pdf/cdlhandbook.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Kansas CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://wp.kentuckystatepolice.ky.gov/wp-content/uploads/2018/12/2019CDLDriverManual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Kentucky CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://dpsweb.dps.louisiana.gov/DPSForms.nsf/")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+      Louisiana CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://mva.maryland.gov/media/203/download?inline=")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+        Maryland CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://www.michigan.gov/sos/-/media/Project/Websites/sos/Resources/Forms-and-publications/CDL-Manual/cdlmanual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Michigan CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://assets.dps.mn.gov/files/dvs/Commercial-Drivers-License-Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Minnesota CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://driving-tests.org/mississippi/ms-cdl-handbook/")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Mississippi CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://driving-tests.org/mississippi/ms-cdl-handbook/")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Mississippi CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("/Missouri-CDL-Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Missouri CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://mvdmt.gov/wp-content/uploads/2026/03/Montana-CDL-Manual-2026.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Montana CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("/Nebraska-CDL-Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Nebraska CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://dmv.nv.gov/pdfforms/dlbookcomm.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Nevada CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://www.nj.gov/mvc/pdf/license/CDL_Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         New Jersey CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://www.mvd.newmexico.gov/wp-content/uploads/2025/08/000-Combined-CDL-Driver-Manual-with-Supp-3-2025.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         New Mexico CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://dmv.ny.gov/driver-license/commercial-drivers/new-york-state-commercial-drivers-manual")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         New York CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://www.ncdot.gov/dmv/license-id/driver-licenses/new-drivers/Documents/commercial-driver-manual.pdf#search=cdl%20manual")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         North Carolina CDL Manual
+      </button>
+      <button
+        onClick={() => goTo("https://www.dot.nd.gov/sites/www/files/documents/Drivers%20-%20documents/commercial%20vehicles/CDL-manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         North Dakota CDL Manual
+      </button>
+ <button
+        onClick={() => goTo("https://dam.assets.ohio.gov/image/upload/publicsafety.ohio.gov/hsy7605.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Ohio CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.fmcsa.dot.gov/sites/fmcsa.dot.gov/files/docs/2005%20CDL%20Driver%20Manual%20-July%202014%20-%20FINAL.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Oklahoma CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.oregon.gov/odot/forms/dmv/36.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Oregon CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-manuals/commercial-drivers-manual/comm-manual-english/pub%20223.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Pennsylvania CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://dmv.ri.gov/sites/g/files/xkgbur556/files/documents/manuals/CDL_Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Rhode Island CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://driving-tests.org/south-carolina/sc-cdl-handbook/")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         South Carolina CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.tn.gov/content/dam/tn/safety/documents/CDL_Manual_May2022.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Tennessee CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.dps.texas.gov/internetforms/getForm.ashx?id=DL-7C.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Texas CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://dld.utah.gov/wp-content/uploads/CDL-Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Utah CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.dmv.virginia.gov/sites/default/files/forms/dmv60a.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Virginia CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://dol.wa.gov/media/pdf/42/cdlguidepdf/download?inline")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Washington CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://transportation.wv.gov/highways/training/TrainingDocuments/WV-CDL-Manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         West Virginia CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://wisconsindot.gov/Documents/dmv/shared/bds356-cdl-manual.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Wisconsin CDL Manual
+      </button>
+       <button
+        onClick={() => goTo("https://www.dot.state.wy.us/files/live/sites/wydot/files/shared/Driver_Services/Help%20Documents%20and%20Manuals/Wyoming%20CDL%20Manual_Oct%202024_full.pdf")}
+        className="w-full text-left px-4 py-3 hover:bg-gray-200"
+      >
+         Wyoming CDL Manual
+      </button>
       {/* Add more PDFs below */}
 
       {/*
