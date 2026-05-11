@@ -24,7 +24,7 @@ export default function Home() {
               Welcome to 160 Driving Academy
             </h1>
             <p className="text-lg md:text-xl mb-6">
-              Start Your CDL Career Today – Fast, Affordable, and Job-Ready Training
+              Access Your Online CDL Classes, Zoom Sessions, and Study Materials
             </p>
           </div>
 
@@ -38,19 +38,19 @@ export default function Home() {
             onClick={() => goTo("/Canvas-login-guide.pdf")}
            className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
-            How to Log Into Canvas (PDF)
+            Instruction on how to log into your Online Class (Canvas)
           </button>
 
           <button
             onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
             className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
           >
-            Click Here to get to Join Zoom and take quizzes
+            Click here to attend your instructor's live class session and access your quizzes and assignments (Canvas)
           </button>
 <div className="relative">
   <details className="relative">
     <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400">
-      CDL Manuals & PDFs
+      Study CDL Manuals & Permit Guides
     </summary>
 
     <div className="absolute mt-2 w-72 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10">
@@ -343,7 +343,7 @@ export default function Home() {
 {/* Video Section */}
 <section className="py-16 bg-[#272727] text-center text-white">
   <h2 className="text-3xl font-bold mb-6 text-orange-500">
-    Chromebook Login Tutorial
+    Start Here: Chromebook Login Help
   </h2>
 
  <div className="w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg">
