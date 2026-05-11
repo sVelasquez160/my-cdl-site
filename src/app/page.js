@@ -31,29 +31,39 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Action Buttons Section */}
-    <section className="py-12 bg-[#272727] text-center">
-        <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-<button
-            onClick={() => goTo("/Canvas-login-guide.pdf")}
-           className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
-          >
-            Instruction on how to log into your Online Class (Canvas)
-          </button>
+{/* Main Content Section: Buttons + Video Side by Side */}
+<section className="py-12 bg-[#272727]">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
-          <button
-            onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
-            className="bg-[#272727] text-orange px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
-          >
-            Click here to attend your instructor's live class session and access your quizzes and assignments (Canvas)
-          </button>
-<div className="relative">
-  <details className="relative">
-    <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400">
-      Study CDL Manuals & Permit Guides
-    </summary>
+    {/* LEFT COLUMN - ACTION BUTTONS */}
+    <div>
+      <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center lg:text-left">
+        Student Resources
+      </h2>
 
-    <div className="absolute mt-2 w-72 bg-white text-black rounded-lg shadow-lg overflow-hidden z-10">
+      <div className="flex flex-col gap-6">
+
+        <button
+          onClick={() => goTo("/Canvas-login-guide.pdf")}
+          className="bg-[#272727] text-orange-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+        >
+          Instructions on how to log into your Online Class (Canvas)
+        </button>
+
+        <button
+          onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
+          className="bg-[#272727] text-orange-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
+        >
+          Join Live Class, Quizzes, and Assignments (Canvas)
+        </button>
+
+        <div className="relative">
+          <details className="relative">
+            <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400">
+              Study CDL Manuals & Permit Guides
+            </summary>
+
+    <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 max-h-96 overflow-y-auto">
       
 <button
         onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
@@ -334,28 +344,29 @@ export default function Home() {
       </button>
       */}
 
+   </div>
+          </details>       
     </div>
-  </details>
-          </div>
-        </div>
-      </section>
 
-{/* Video Section */}
-<section className="py-16 bg-[#272727] text-center text-white">
-  <h2 className="text-3xl font-bold mb-6 text-orange-500">
-    Start Here: Chromebook Login Help
-  </h2>
+    {/* RIGHT COLUMN - VIDEO */}
+    <div>
+      <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center">
+        Start Here: Chromebook Login Help
+      </h2>
 
- <div className="w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg">
-  <iframe
-    src="https://player.vimeo.com/video/1190255341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-    className="w-full h-[400px] md:h-[600px]"
-      frameBorder="0"
-      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-      referrerPolicy="strict-origin-when-cross-origin"
-      allowFullScreen
-      title="How to use the Chromebook"
-    ></iframe>
+      <div className="w-full rounded-2xl overflow-hidden shadow-lg">
+        <iframe
+          src="https://player.vimeo.com/video/1190255341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          className="w-full h-[400px] lg:h-[600px]"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          title="How to use the Chromebook"
+        ></iframe>
+      </div>
+    </div>
+
   </div>
 </section>
       {/* Footer */}
