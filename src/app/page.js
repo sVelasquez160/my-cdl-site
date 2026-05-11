@@ -73,7 +73,7 @@ export default function Home() {
 
             <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 max-h-96 overflow-y-auto">
 
-              button
+              <button
         onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
         className="w-full text-left px-4 py-3 hover:bg-gray-200"
       >
