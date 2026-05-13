@@ -44,7 +44,7 @@ export default function Home() {
       <div className="w-full rounded-2xl overflow-hidden shadow-lg">
         <iframe
           src="https://player.vimeo.com/video/1190255341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-          className="w-full h-[400px] lg:h-[600px]"
+          className="w-full h-[400px] lg:h-[300px]"
           style={{ border: "none"}}
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
