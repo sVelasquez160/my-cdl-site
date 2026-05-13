@@ -37,7 +37,7 @@ export default function Home() {
 
     {/* LEFT COLUMN - VIDEO */}
     <div>
-      <h2 className="text-3xl font-bold mb-3 text-orange-500 text-center">
+      <h2 className="text-3xl font-bold mb-0 text-orange-500 text-center">
         Start Here: Chromebook Login Help
       </h2>
 
