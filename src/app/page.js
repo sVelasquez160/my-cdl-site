@@ -31,11 +31,30 @@ export default function Home() {
         </div>
       </section>
 
-{/* Main Content Section: Buttons + Video Side by Side */}
+{/* Main Content Section: Video + Buttons Side by Side */}
 <section className="py-12 bg-[#272727]">
   <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
-    {/* LEFT COLUMN - ACTION BUTTONS */}
+    {/* LEFT COLUMN - VIDEO */}
+    <div>
+      <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center">
+        Start Here: Chromebook Login Help
+      </h2>
+
+      <div className="w-full rounded-2xl overflow-hidden shadow-lg">
+        <iframe
+          src="https://player.vimeo.com/video/1190255341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+          className="w-full h-[400px] lg:h-[600px]"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+          title="How to use the Chromebook"
+        ></iframe>
+      </div>
+    </div>
+
+    {/* RIGHT COLUMN - ACTION BUTTONS */}
     <div>
       <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center lg:text-left">
         Student Resources
@@ -56,15 +75,7 @@ export default function Home() {
         >
           Join Live Class, Quizzes, and Assignments (Canvas)
         </button>
-
-        <button
-          onClick={() => goTo("https://zoom.us/my/josh160?browser=chrome")}
-          className="bg-[#272727] text-orange-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
-        >
-          Enter Classroom
-        </button>
-
-        {/* CDL Manuals Dropdown */}
+  {/* CDL Manuals Dropdown */}
         <div className="relative">
           <details className="relative">
             <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400">
@@ -72,7 +83,6 @@ export default function Home() {
             </summary>
 
             <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 max-h-96 overflow-y-auto">
-
               <button
         onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
         className="w-full text-left px-4 py-3 hover:bg-gray-200"
@@ -341,30 +351,10 @@ export default function Home() {
       >
          Wyoming CDL Manual
       </button>
-
             </div>
           </details>
         </div>
 
-      </div>
-    </div>
-
-    {/* RIGHT COLUMN - VIDEO */}
-    <div>
-      <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center">
-        Start Here: Chromebook Login Help
-      </h2>
-
-      <div className="w-full rounded-2xl overflow-hidden shadow-lg">
-        <iframe
-          src="https://player.vimeo.com/video/1190255341?title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
-          className="w-full h-[400px] lg:h-[600px]"
-          frameBorder="0"
-          allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-          title="How to use the Chromebook"
-        ></iframe>
       </div>
     </div>
 
