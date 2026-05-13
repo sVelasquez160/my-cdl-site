@@ -56,7 +56,7 @@ export default function Home() {
 
     {/* RIGHT COLUMN - ACTION BUTTONS */}
     <div>
-      <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center lg:text-left">
+      <h2 className="text-3xl font-bold mb-6 text-orange-500 text-center lg:text-center">
         Student Resources
       </h2>
 
@@ -82,7 +82,7 @@ export default function Home() {
               Study CDL Manuals & Permit Guides
             </summary>
 
-            <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 max-h-96 overflow-y-auto">
+            <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg lg:text-center overflow-hidden z-10 max-h-96 overflow-y-auto">
               <button
         onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
         className="w-full text-left px-4 py-3 hover:bg-gray-200"
