@@ -78,11 +78,11 @@ export default function Home() {
   {/* CDL Manuals Dropdown */}
         <div className="relative">
           <details className="relative">
-            <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400">
+            <summary className="list-none cursor-pointer bg-orange-500 text-black px-8 py-4 rounded-xl font-semibold hover:bg-orange-400 text-center">
               Study CDL Manuals & Permit Guides
             </summary>
 
-            <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg lg:text-center overflow-hidden z-10 max-h-96 overflow-y-auto">
+            <div className="absolute mt-2 w-full bg-white text-black rounded-lg shadow-lg overflow-hidden z-10 max-h-96 overflow-y-auto">
               <button
         onClick={() => goTo("https://www.alea.gov/sites/default/files/inline-files/cdlmanual.pdf")}
         className="w-full text-left px-4 py-3 hover:bg-gray-200"
