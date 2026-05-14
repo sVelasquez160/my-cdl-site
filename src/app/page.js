@@ -11,7 +11,7 @@ export default function Home() {
      
       {/* Hero Section */}
       <section className="bg-[#272727] py-16 border-t border-orange-500">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-center gap-2">
           
           {/* Logo Left */}
           <div className="flex-shrink-0">
@@ -19,7 +19,7 @@ export default function Home() {
           </div>
 
           {/* Text Right */}
-          <div className="text-center md:text-left md:ml-[-180px]">
+          <div className="text-center md:text-left md:pl-4">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-500">
               Welcome to 160 Driving Academy
             </h1>
