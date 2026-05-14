@@ -19,7 +19,7 @@ export default function Home() {
           </div>
 
           {/* Text Right */}
-          <div className="text-center md:text-left md:ml-[-100px]">
+          <div className="text-center md:text-left md:ml-[-180px]">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-orange-500">
               Welcome to 160 Driving Academy
             </h1>
