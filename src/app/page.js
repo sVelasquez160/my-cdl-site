@@ -66,14 +66,14 @@ export default function Home() {
           onClick={() => goTo("/Canvas-login-guide.pdf")}
           className="bg-[#272727] text-orange-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
         >
-          Instructions on how to log into your Online Class (Canvas)
+          Instructions on how to log into your Online Class
         </button>
 
         <button
           onClick={() => goTo("https://160drivingacademy.instructure.com/login/canvas")}
           className="bg-[#272727] text-orange-500 px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 border-2 border-orange-500"
         >
-          Join Live Class, Quizzes, and Assignments (Canvas)
+          Join Live Class, Quizzes, and Assignments
         </button>
   {/* CDL Manuals Dropdown */}
         <div className="relative">
